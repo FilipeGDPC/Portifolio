@@ -45,7 +45,7 @@ header {
   header .header__right .header__image .background {
     position: absolute;
     top:-4rem;
-    right: -1rem;
+    right: 7rem;
     width: 60%;
     z-index: -1;
   }
