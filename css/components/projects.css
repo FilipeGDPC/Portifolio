@@ -1,6 +1,6 @@
 .projects {
-    margin-bottom: 16rem;
-    scroll-margin-top: 15rem;
+    margin-bottom: 15rem;
+    scroll-margin-top: 16rem;
   }
   
   .projects .projects__content {
@@ -13,7 +13,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 4rem;
+    gap: 9rem;
+    padding: 50px;
   }
   
   .projects ul li.projects__reversed-list {
@@ -21,18 +22,18 @@
   }
   
   .projects ul li:not(:last-of-type) {
-    margin-bottom: 12rem;
+    margin-bottom: 20rem;
   }
   
   .projects ul li .image img {
     width: 100%;
-    min-width: 40rem;
+    min-width: 50rem;
     max-width: 47rem;
     height: auto;
   }
   
   .projects ul li .projects__info {
-    max-width: 47rem;
+    max-width: 50rem;
   }
   
   .projects ul li .projects__info p {
