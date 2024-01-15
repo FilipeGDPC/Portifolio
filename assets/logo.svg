@@ -1,4 +1,8 @@
 <svg width="200" height="50" xmlns="http://www.w3.org/2000/svg">
-    <text x="50%" y="44%" font-family='DM Sans' font-size="30" fill="#000000" text-anchor="middle" dominant-baseline="middle">FilipeDev</text>
+    <style>
+        :root {
+            --font-family: 'DM Sans', sans-serif; /* Defina a variável globalmente */
+        }
+    </style>
+    <text x="50%" y="44%" style="font-family: var(--font-family); font-size: 30px; fill: #000000;" text-anchor="middle" dominant-baseline="middle">FilipeDev</text>
 </svg>
-
