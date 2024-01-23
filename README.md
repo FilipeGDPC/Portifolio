@@ -11,13 +11,13 @@ Learn about my motivations, passions, and values that guide my work.
 Find out what drives me to constantly pursue excellence in everything I do.
 # ABILITIES
 This section showcases my technical skills, competencies, and knowledge.
-Explore a detailed list of programming languages, tools, and technologies I master.
+Explore a detailed list of programming languages, tools, and technologies I have mastered.
 Understand how these skills contribute to my ability to create efficient solutions.
 # PROJECTS
 Explore a variety of projects that demonstrate my hands-on experience.
-Each project includes a brief description, the technologies used, and achieved results.
+Each project includes a brief description, of the technologies used, and achieved results.
 Discover how I tackled challenges and developed innovative solutions in diverse contexts.
-CONTACT
+# CONTACT
 Easily get in touch with me through the provided contact information in this section.
 I'm open to collaboration opportunities, discussions, or just exchanging ideas.
 I look forward to hearing from you and exploring potential ways we can work together.
