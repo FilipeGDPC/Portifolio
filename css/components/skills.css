@@ -4,24 +4,24 @@
   }
   
   .skills .skills__content {
-    padding: 6rem 4rem;
+    padding: 13rem 4rem;
     text-align: center;
   }
   
   .skills .skills__content .description {
-    max-width: 56rem;
-    margin: 0 auto 6rem;
+    max-width: 58rem;
+    margin: 0 auto 7rem;
   }
   
   .skills .skills__content ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap: 2rem;
+    gap: 1%;
   }
   
   .skills .skills__content ul li .image-container {
     background-color: var(--white);
-    padding: 2rem;
+    padding: 5rem;
     border-radius: 50%;
     width: 7rem;
     height: 7rem;
@@ -33,7 +33,7 @@
   }
   
   .skills .skills__content ul li h3 {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     font-weight: 500;
     margin: 2rem 0 1rem;
   }
