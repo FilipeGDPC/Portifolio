@@ -16,7 +16,7 @@
   .skills .skills__content ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap: 1%;
+    gap: 2%;
   }
   
   .skills .skills__content ul li .image-container {
