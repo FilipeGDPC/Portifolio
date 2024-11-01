@@ -1,62 +1,64 @@
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 4rem;
-    scroll-margin-top: 20rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+  scroll-margin-top: 20rem;
+}
+
+header .header__left {
+  max-width: 66rem;
+  flex: 1;
+}
+
+header .header__left p {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  max-width: 50rem;
+}
+
+header .header__right .header__image {
+  position: relative;
+  line-height: 0;
+}
+
+header .header__right .header__image::after {
+  content: '';
+  display: block;
+  width: 50%;
+  height: 100%;
+  border: 1px solid var(--tertiary-color);
+  position: absolute;
+  top: 0rem;
+  right: 19rem;
+  border-radius: 0.5rem;
+  z-index: -1;
+}
+
+header .header__right .header__image .filipe {
+  border-radius: 0.5rem;
+  min-width: 20rem;
+  max-width: 50%;
+  position: relative;
+  right: -22rem; /* Ajuste este valor conforme necessário */
+  top: -1rem;
+}
+
+header .header__right .header__image .background {
+  position: absolute;
+  top: 5rem;
+  right: 7rem; /* Ajuste este valor conforme necessário */
+  width: 65%;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    flex-direction: column-reverse;
+    text-align: center;
   }
-  
-  header .header__left {
-    max-width: 66rem;
-    flex: 1;
-  }
-  
+
   header .header__left p {
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-    max-width: 50rem;
+    margin: 2rem auto 4rem;
   }
-  
-  header .header__right .header__image {
-    position: relative;
-    line-height: 0;
-  }
-  
-  header .header__right .header__image::after {
-    content: '';
-    display: block;
-    width: 70%;
-    height: 100%;
-    border: 1px solid var(--tertiary-color);
-    position: absolute;
-    top: -2rem;
-    right: 20rem;
-    border-radius: 0.5rem;
-    z-index: -1;
-   
-  }
-  
-  header .header__right .header__image .filipe {
-    border-radius: 0.5rem;
-    min-width: 20rem;
-    max-width:60%;
-  }
-  
-  header .header__right .header__image .background {
-    position: absolute;
-    top:-4rem;
-    right: 7rem;
-    width: 60%;
-    z-index: -1;
-  }
-  
-  @media only screen and (max-width: 768px) {
-    header {
-      flex-direction: column-reverse;
-      text-align: center;
-    }
-  
-    header .header__left p {
-      margin: 2rem auto 4rem;
-    }
-  }
+}
