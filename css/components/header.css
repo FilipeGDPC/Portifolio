@@ -37,7 +37,7 @@ header .header__right .header__image::after {
 
 header .header__right .header__image .filipe {
   border-radius: 0.5rem;
-  min-width: 20rem;
+  min-width: 25rem;
   max-width: 50%;
   position: relative;
   right: -22rem; /* Ajuste este valor conforme necessário */
@@ -47,8 +47,8 @@ header .header__right .header__image .filipe {
 header .header__right .header__image .background {
   position: absolute;
   top: 5rem;
-  right: 7rem; /* Ajuste este valor conforme necessário */
-  width: 65%;
+  right: 16rem; /* Ajuste este valor conforme necessário */
+  width: 60%;
   z-index: -1;
 }
 
